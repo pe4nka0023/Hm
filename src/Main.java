@@ -7,5 +7,7 @@ public class Main {
         Author author = new Author("Фёдор", "Достоевский");
         Book book = new Book(author, "Преступление и наказание", 1866);
         book.setPublishYear(1899);
+
+        System.out.println(book);
     }
 }
